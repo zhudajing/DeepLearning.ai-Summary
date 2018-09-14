@@ -389,7 +389,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - One of  the weaknesses of this representation is that it treats a word as a thing that itself and it doesn't allow an algorithm to generalize across words.
     - For example: "I want a glass of **orange** ______" , a model should predict the next word as **Juice**.
     - A similar example "I want a glass of **apple** ______" , a model won't easily predict **juice** here if it doesn't trained on it. And if so the two examples aren't related although orange and apple are similar.
-  - Inner product between any hot encoding word is zero. Also the distances between them are the same.
+  - Inner product between any hot encoding word(任意热编码word之间的内积(就是向量的内积)为0) is zero. Also the distances between them are the same.
 - So, instead of a one-hot presentation, won't it be nice if we can learn a featurized representation with each of these words: Man, Woman, King, Queen, Apple, and orange?
   - ![](Images/28.png)
   - Each word will have a 300 features with type of float point number for example.
