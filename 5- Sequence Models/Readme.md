@@ -412,7 +412,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - **Sally Johnson** is a persons name.
 - After training on this sentence the model should find out that the sentence "**Robert Lin** is an *apple* farmer" contains Robert Lin as a name, as apple and orange has near representations.
 - Now if you have tested your model with this sentence "**Mahmoud Badry** is a *durian* cultivator" the network should learn the name even if it hasn't seen the word *durian* before. Thats the power of word representations.
-- The algorithms that are used to learn **word embeddings** can exterminate billions of unlabeled text - for example 100 billion- words and learn the representation from them.
+- The algorithms that are used to learn **word embeddings** can exterminate(消灭) billions of unlabeled text - for example 100 billion- words and learn the representation from them.
 - Transfer learning and word embeddings:
   1. Learn word embeddings from large text corpus. say 100 billion word
      - Or download pre-trained embedding online.
