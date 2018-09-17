@@ -428,7 +428,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - In the word embeddings task, we are getting a vector say from e<sub>1</sub> to e<sub>300</sub> for each word in our vocabulary. We will discuss the algorithm in the next sections.
 
 #### Properties of word embeddings
-- One of the most fascinating properties of word embeddings is that they can also help with analogy reasoning. Analogy reasoning is one of the most important applications of NLP.
+- One of the most fascinating properties of word embeddings is that they can also help with analogy reasoning(类比推理). Analogy reasoning is one of the most important applications of NLP.
 - Analogies example:
   - Given this word embeddings table:
     - ![](Images/32.png)
